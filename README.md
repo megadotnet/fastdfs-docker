@@ -2,9 +2,9 @@
 this is a fastdfs docker project
 
 # tracker defalut port
-12050
+22122
 # storage default port
-12041
+23000
 # start storage:
 docker run --add-host fastdfs.net:10.10.5.170 --name fastdfs --net=host -v $(pwd):/storage/fastdfs -it mypjb/fastdfs
 
